@@ -15,7 +15,7 @@
 
 # ArchLinux
 
-* Es una de las mas completas y complejas distribuciones de [[1- Linux]]
+* Es una de las mas completas y complejas distribuciones de Linux
 * Se compone en su mayor parte de software libre y de código abierto
 * Apoya la participación comunitaria
 * Su modelo de desarrollo es de tipo [Liberación continua](https://es.wikipedia.org/wiki/Liberaci%C3%B3n_continua)
@@ -76,7 +76,7 @@ Decídimos usar hyper-v, ya que lo incluye windows 10.
 ## Qué es Hyper-v?
 - Hyper-V es una tecnología de **Microsoft** que permite a los usuarios crear entornos de servidores virtuales.
 - Ejecutar y administrar múltiples sistemas operativos en un solo servidor físico.
-- En otras palabras **crear y administrar máquinas virtuales ([[2b- VM]])**.
+- En otras palabras **crear y administrar máquinas virtuales**.
 
 ## Qué permite hyper-v?
 -   Crear y eliminar máquinas virtuales.
@@ -95,8 +95,8 @@ Para instalar y usar el rol Hyper-V, se necesita lo siguiente:
 -  La Prevención de ejecución de datos (DEP) implementada por hardware debe estar disponible y habilitada. Concretamente, debe habilitar el bit XD de Intel (bit ejecutar deshabilitado) o el bit NX de AMD (bit no ejecutar).
 
 ## Activar hyper-v
-Para activar hyper-v en [[2- Windows]] debemos:
-1.  Abra una consola de [[2a- PowerShell]] como administrador.
+Para activar hyper-v en Windows debemos:
+1.  Abra una consola de PowerShell como administrador.
 2.  Ejecute el siguiente comando:
 ```PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper\-V -All
@@ -106,11 +106,11 @@ Si no se pudo encontrar el comando, asegúrese de que está ejecutando PowerShel
 
 Cuando la instalación se haya completado, reinicie.
 ### Habilite Hyper-V con CMD y DISM
-La herramienta de administración y mantenimiento de imágenes de implementación (DISM) ayuda a configurar [[2- Windows]] y las imágenes. 
-- Entre sus muchas aplicaciones, DISM puede habilitar funciones de [[2- Windows]] mientras el sistema operativo está en ejecución.
+La herramienta de administración y mantenimiento de imágenes de implementación (DISM) ayuda a configurar Windows y las imágenes. 
+- Entre sus muchas aplicaciones, DISM puede habilitar funciones de Windows mientras el sistema operativo está en ejecución.
 
 Para habilitar el rol de Hyper-V usando DISM:
-1.  Abra una sesión de [[2a- PowerShell]] o CMD como administrador.
+1.  Abra una sesión de PowerShell o CMD como administrador.
 2.  Escriba el siguiente comando:
 ```PowerShell
 DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper\-V
@@ -135,7 +135,7 @@ New-VMSwitch -name PrivateSwitch -SwitchType Private
 ```
 
 ## Crear una VM en hyper-v
-1. Para iniciar el proceso de creación de la máquina virtual debemos acceder como administradores a [[2a- PowerShell]] y allí ejecutar la siguiente sintaxis:
+1. Para iniciar el proceso de creación de la máquina virtual debemos acceder como administradores a PowerShell y allí ejecutar la siguiente sintaxis:
 ```PoweShell
 New-VM -Name “Nombre VM” -MemoryStartupBytes 6GB -BootDevice VHD -NewVHDPath Ruta.vhdx -Path “Ruta” -NewVHDSizeBytes 30GB -Generation 2 -Switch “Adaptador”
 ```
