@@ -194,3 +194,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash video=hyperv_fb:1920×1080″
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
+# Referencias Biblográficas
+https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
+https://archlinux.org/
+https://www.archlinux-es.org/
