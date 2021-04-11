@@ -196,6 +196,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 # Referencias Biblográficas
-https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
-https://archlinux.org/
-https://www.archlinux-es.org/
+https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v  
+https://archlinux.org/  
+https://www.archlinux-es.org/  
