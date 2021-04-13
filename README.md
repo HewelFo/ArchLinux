@@ -9,9 +9,9 @@
 	<em>Autores: </em>Hewel Ochoa, Vaihinger Vega<br />
 	<em>Año: </em>2021<br />
 	<em>Creado: </em>31/03/2021<br />
-	<em>Vídeo: </em><a href="url">https://www.youtube.com/watch?v=iwACQ2FXv1Q</a><br />
 <hr />
-
+# vídeo de referencia
+<a href="url">https://www.youtube.com/watch?v=iwACQ2FXv1Q</a>
 # ArchLinux
 
 * Es una de las mas completas y complejas distribuciones de Linux
