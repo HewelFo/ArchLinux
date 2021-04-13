@@ -1,16 +1,19 @@
 <hr />
 <img width="150px" height="150px" style="border-radius: 50%;"  src="https://utp.ac.pa/documentos/2015/imagen/logo_utp_1_300.png"/>
 
+<center>
 	<em></em>Universidad Tecnológica de Panamá<br />
 	<em></em>Facultad de Ingeniería de Sistemas Computacionales<br />
 	<em></em>Ingeniería en sistemas computacionales<br />
-	<em>Tema: </em>ArchLinux<br />
+	<em>Tema: </em>Instalación de ArchLinux en una VM<br />
 	<em>Profesora: </em>Yarisol Castillo <br />
 	<em>Autores: </em>Hewel Ochoa, Vaihinger Vega<br />
 	<em>Año: </em>2021<br />
-	<em>Creado: </em>31/03/2021<br />
+	<em>Creado: </em>07/04/2021<br />
+</center>
 <hr />
-# vídeo de referencia
+
+# Vídeo de referencia
 <a href="url">https://www.youtube.com/watch?v=iwACQ2FXv1Q</a>
 # ArchLinux
 
